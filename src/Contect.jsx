@@ -1,10 +1,10 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+
 
 import './Contect.css'
 import {
   AiFillGithub,
-  AiOutlineTwitter,
+
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -20,7 +20,7 @@ function Contect() {
                   href="https://github.com/robinpanwar8077"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <AiFillGithub />
                 </a>
@@ -30,7 +30,7 @@ function Contect() {
                   href="https://www.linkedin.com/in/robinsingh1723/"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <FaLinkedinIn />
                 </a>
