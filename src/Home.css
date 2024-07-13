@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.homeinfo{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    row-gap: 23px;
+}
+.Navinfo{
+    position: fixed;
+    z-index: 3;
+}
+
+.homediv{
+    overflow-y: scroll;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+}
+.projectshow {
+ 
+}
+
+  .bannershow,
+  .aboutshow {
+ 
+margin-top: 79px;
+     
+  transition:  0.5s ease-in-out; 
+  }
+  
+.aboutshow.active {
+  opacity: 1;
+
+  margin-top: 237px;
+}
+  .bannershow.active {
+  opacity: 1;
+
+  margin-top: 87px;
+}
+.projectshow.active{
+  opacity: 1;
+  margin-top: 279px;
+}

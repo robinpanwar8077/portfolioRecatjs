@@ -1,0 +1,100 @@
+.projectheading{
+    color: white;
+  font-weight: 600; 
+  text-align: center;
+  font-size: 5rem; 
+}
+.logophoto{
+
+}
+.title__head{
+
+   padding: 14px;
+    letter-spacing: 0.5em; 
+    text-align: center;
+    color: transparent; 
+    font-weight: 300; 
+    padding-bottom: 5px; 
+    background-clip: text; 
+    background-image: linear-gradient(to right, #8B5CF6, #FFA07A); 
+    font-size: 1rem; 
+    font-style: normal;
+
+    text-shadow: 2px 2px 4px red;
+
+
+}
+.projectinfo {
+    max-width: 100%; 
+  margin-right: auto;
+  padding-left: 1rem; 
+  padding-right: 1rem;
+}
+@media (min-width: 1536px) {
+    .projectinfo {
+      max-width: 1536px; 
+    }
+  }
+  
+  .projectcon {
+    display: flex;
+    flex-direction: row;
+    margin-top: 7px;
+    font-weight: normal;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    
+  }
+  
+  
+  .projectone {
+    flex: 0 0 calc(33.333% - 10px); 
+    box-sizing: border-box;
+    margin-bottom: 20px; 
+  }
+  
+
+  
+  @media (min-width: 768px) {
+    .projectcon {
+      flex-direction: row; 
+    }
+  }
+  .projectone{
+    
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 5px;
+      border: 1px solid purple;
+      height: 19rem;
+      border-radius: 6px;
+      box-shadow: 2px 2px 4px red; /* Adjust values as needed */
+      padding: 14px;
+    }
+    
+  .paraofprojectheading {
+    color: white; 
+    font-weight: 600; 
+    font-size: 1.25rem; 
+  }
+
+  .infoofproject{
+    color: #718096; 
+  font-size: 10px
+  }
+
+  @media screen and (max-width:480px)  {
+
+    .projectheading{
+      color:white;
+    font-weight: 600; 
+    text-align: center;
+    font-size: 4rem; 
+  }
+  .projectcon{
+    column-gap: 1px;
+    
+    padding: 4px;
+    row-gap: 22px;
+  }
+  }

@@ -1,0 +1,19 @@
+/* footer.css */
+
+.Footerdiv {
+
+    color: #fff; 
+    padding: 20px; 
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 350px;
+  }
+  
+
+  @media screen and (max-width:480px) {
+    .Footerdiv{
+     font-size: 1rem;
+    }
+}
