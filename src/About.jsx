@@ -2,7 +2,7 @@
  import './About.css'
 
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
+// import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiJavascript1,
   DiReact,
@@ -12,19 +12,15 @@ import {
  
 } from "react-icons/di";
 import {
-  SiRedis,
+
   SiFirebase,
-  SiNextdotjs,
-  SiSolidity,
-  SiPostgresql,
+ 
 } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
+
 import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
+ 
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+
 function About(){
     return(
         <>
